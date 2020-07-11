@@ -1,4 +1,4 @@
-(ns botground.uuid)
+(ns uuid)
 
 (def uuid
   "Create a UUID"

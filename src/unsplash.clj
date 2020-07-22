@@ -2,7 +2,7 @@
   (:require [clj-http.client :as client]))
 
 (def unsplash-random-image-url
-  "https://source.unsplash.com/random/3840x2160?mountains,trees,cyberpunk,coding,buildings,sunset,sky,outdoors")
+  "https://source.unsplash.com/random/3840x2160?mountains")
 
 (def destination-file
   (apply str (System/getenv "HOME") "/Pictures/Wallpapers/" "current-wallpaper.jpg"))
